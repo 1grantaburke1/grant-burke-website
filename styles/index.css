@@ -161,10 +161,6 @@ section:nth-of-type(even) {
       width: calc(var(--basic-reference-width));
 }
 
-.references .column:last-child {
-      width: calc(2 * var(--basic-reference-width) + 60px);
-}
-
 .token_set>div>div {
       display: flex;
       flex-direction: row;
@@ -595,3 +591,4 @@ section+section {
             color: rgb(185, 185, 185) !important;
       }
 }
+
